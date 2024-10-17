@@ -1,0 +1,177 @@
+.summary-header {
+  background-color: #f8f9fc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.overview-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.overview-section p {
+  font-size: 14px;
+  color: #666;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-wrapper {
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.icon-wrapper:hover {
+  background-color: #3d74f2;
+  color: white;
+}
+
+.icons svg {
+  font-size: 24px;
+  color: #3d74f2;
+}
+
+.vertical-divider {
+  height: 40px;
+  width: 1px;
+  background-color: #e0e0e0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-profile span {
+  font-size: 14px;
+  color: #333;
+}
+
+.down-arrow-icon {
+  font-size: 20px;
+  color: #333;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-items {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.summary-item {
+  text-align: left;
+  color: #333;
+  flex: 0.2;
+}
+
+.summary-item h4 {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.summary-item p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.indicator {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.indicator.up {
+  color: #28a745;
+}
+
+.indicator.down {
+  color: #dc3545;
+}
+
+.indicator.neutral {
+  color: #ffc107;
+}
+
+.divider {
+  height: 50px;
+  width: 1px;
+  background-color: #e0e0e0;
+  margin: 0 12px;
+}
+
+.date-display {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+
+.date-display svg {
+  color: #3d74f2;
+}
+
+
+@media (max-width: 1024px) {
+  .summary-items {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .top-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .date-display {
+    justify-content: flex-end;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-items {
+    text-align: center;
+  }
+
+  .user-profile {
+    justify-content: center;
+  }
+}

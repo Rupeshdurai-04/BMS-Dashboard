@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  background-color: #f4f5fa;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9f9fb;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+}

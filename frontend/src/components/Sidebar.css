@@ -1,0 +1,115 @@
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.logo-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.logo-image {
+  width: 100%;
+  height: auto;
+}
+
+.logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+  right: 25px;
+}
+
+.logo-header h2 {
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.arrow-icon {
+  font-size: 24px;
+  color: #333;
+  
+}
+
+.separator {
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 0 0 10px 0;
+}
+
+.logo-text {
+  padding: 0 10px 10px 10px;
+  color: #999;
+}
+
+.logo-text p {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+  margin-right: 80px;
+  
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  /* border-radius: 4px; */
+}
+
+.menu-item svg {
+  margin-right: 10px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menu-item span {
+  font-size: 14px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #f9f9fb;
+}
+
+.menu-item.active {
+  background-color: #f9f9fb;
+  color: #3d74f2;
+  border-left: 3px solid #3d74f2; 
+  padding-left: 6px; 
+}
+
+.menu-item.active svg {
+  color: #3d74f2; 
+}
+
+.menu-item.active span {
+  color: black;
+}
+
+.menu-item:active {
+  background-color: #d6ebfb; 
+}
